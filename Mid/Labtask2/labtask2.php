@@ -37,22 +37,18 @@
       border: none;
       cursor: pointer;
     }
-    button:hover {
-      background: #004c88;
-    }
     #result {
       margin-top: 20px;
       text-align: center;
       color: #002b50;
       font-size: 16px;
     }
-    .activity-box {
+    #activity-box {
       width: 320px;
-      background: white;
-      padding: 20px;
-      margin: 20px auto;
+      background: #fbf9f9ff;
+      padding: 18px;
+      margin: 0 auto;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -117,7 +113,7 @@
 
 </script>
 
-<div class="activity-box">
+<div id="activity-box">
   <h2>Activity Selection</h2>
 
   <label>Activity Name:</label>
