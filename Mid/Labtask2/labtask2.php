@@ -123,11 +123,9 @@
   <label>Activity Name:</label>
   <input type="text">
 
-  <button class="btn-add">Add Activity</button>
-  <div class="displayed-activity">
+  <button type="button">Add Activity</button>
     Hello
-    <button class="btn-remove">Remove</button>
-  </div>
+    <button type="button">Remove</button>
 </div>
 
 </body>
