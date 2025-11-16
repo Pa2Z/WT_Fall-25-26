@@ -46,6 +46,14 @@
       color: #002b50;
       font-size: 16px;
     }
+    .activity-box {
+      width: 320px;
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -108,6 +116,19 @@
   }
 
 </script>
+
+<div class="activity-box">
+  <h2>Activity Selection</h2>
+
+  <label>Activity Name:</label>
+  <input type="text">
+
+  <button class="btn-add">Add Activity</button>
+  <div class="displayed-activity">
+    Hello
+    <button class="btn-remove">Remove</button>
+  </div>
+</div>
 
 </body>
 </html>
