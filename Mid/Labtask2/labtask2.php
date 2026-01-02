@@ -29,7 +29,6 @@
       border-radius: 4px;
     }
     button {
-      width: 100%;
       padding: 10px;
       margin-top: 15px;
       background: #002b50;
@@ -119,8 +118,8 @@
   <label>Activity Name:</label>
   <input type="text">
 
-  <button type="button">Add Activity</button>
-    Hello
+  <button type="button">Add Activity</button> <br>
+    Hello <br>
     <button type="button">Remove</button>
 </div>
 
